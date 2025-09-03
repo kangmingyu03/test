@@ -1,6 +1,22 @@
 [project]
+<<<<<<< HEAD
 name = "pythonproject9"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = []
+=======
+name = "fastapi-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aerich>=0.9.1",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.116.1",
+    "python-dotenv>=1.1.1",
+    "tortoise-orm>=0.25.1",
+    "uvicorn[standard]>=0.35.0",
+]
+>>>>>>> 38ffe09 (기초세팅2)
